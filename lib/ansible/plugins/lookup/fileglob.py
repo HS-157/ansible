@@ -10,7 +10,7 @@ DOCUMENTATION = """
     short_description: list files matching a pattern
     description:
         - Matches all files in directory that match a pattern.
-          It calls Python's "`Path.glob <https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob>`_" library.
+          It calls Python's "L(Path.glob, https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob)" library.
     options:
       _terms:
         description: path(s) of files to read
